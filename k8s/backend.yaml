@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ahmed3013/django-backend:latest
+          image: ahmed3013/backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
